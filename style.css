@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
+  color: white;
+  overflow-x: hidden;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.headline {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.stats {
+  margin-top: 20px;
+}
+
+.stat {
+  opacity: 0;
+  margin: 5px 0;
+}
+
+.car {
+  width: 400px;
+  position: absolute;
+  bottom: 50px;
+  will-change: transform;
+}
+
+.content {
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
